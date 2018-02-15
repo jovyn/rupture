@@ -81,7 +81,7 @@ attack() {
     echo "[*] Rupture is live."
 
     cat /dev/null > $BASEDIR/rupture.log
-    tailf $BASEDIR/rupture.log
+    tail -f $BASEDIR/rupture.log
 }
 
 ## Check all arguments for validation before beginning setup
